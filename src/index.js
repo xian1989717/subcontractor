@@ -3,8 +3,11 @@ import ReactDom from 'react-dom'
 
 import Hello from '@/components/Hello'
 
-
+const obj = {
+    name: '张三',
+    age: 18
+}
 ReactDom.render(
     <div>
-        <Hello></Hello>
+        <Hello {...obj}></Hello>
     </div>, document.getElementById('app'))
