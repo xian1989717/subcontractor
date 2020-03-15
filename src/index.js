@@ -1,10 +1,8 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 
+import Hello from '@/components/Hello'
 
-function Hello() {
-    return <div>123456</div>
-}
 
 ReactDom.render(
     <div>
